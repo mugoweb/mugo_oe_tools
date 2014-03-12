@@ -38,9 +38,8 @@
                             jQuery( '<p id="' + uniqueID + '"><br /></p>' ).insertAfter( currentNode );
                             
                             // Move to the new node
-                            var newParagraph = dom.select( 'p#' + uniqueID );
-                            ed.selection.select( currentNode );
-                            ed.selection.collapse();
+                            var newParagraph = dom.select( 'p#' + uniqueID )[0];
+                            ed.selection.setCursorLocation( newParagraph );
 
                             // Don't create an extra paragraph
                             e.preventDefault();
