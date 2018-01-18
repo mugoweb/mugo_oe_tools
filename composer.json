@@ -1,0 +1,20 @@
+{
+    "name": "mugoweb/mugo_oe_tools",
+    "description": "Online Editor / TinyMCE plugins and customizations for eZ Publish.",
+    "type": "ezpublish-legacy-extension",
+    "authors": [
+        {
+            "name": "Mugo Web",
+            "homepage": "https://www.mugo.ca"
+        }
+    ],
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "keywords": [
+        "eZ Publish"
+    ],
+    "extra": {
+        "ezpublish-legacy-extension-name": "mugo_oe_tools"
+    }
+}
